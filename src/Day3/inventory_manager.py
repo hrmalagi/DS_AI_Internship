@@ -1,0 +1,9 @@
+inventory=["Apples","Bananas","Carrots","Dates"]
+inventory[0]="Dates"
+inventory[3]="Apples"
+print(inventory)
+print('Current_inventory:',inventory)
+inventory.append("Eggs")
+inventory.remove("Bananas")
+inventory.sort()
+print("Updated_inventory:",inventory)
