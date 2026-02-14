@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+
+study_hours = [1,2,3,4,5,6,7,8]
+scores = [50,55,65,70,75,85,90,95]
+plt.scatter(study_hours,scores,label=scores)
+plt.title("Relationship b/w Hours spent studying and Exam Scores")
+plt.xlabel('Study Hours')
+plt.ylabel('Scores')
+plt.legend()
+plt.grid()
+plt.show()
